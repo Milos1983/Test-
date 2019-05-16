@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+
+  <title>DMRocks - Test page</title>
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="js/main.js"></script> 
+</head>
+
+<body id="page-top">
+  <div class="top">
+     <a href="index.html"><div class="top-logo"><img src="icons/Combined Shape.svg"><span class="blue">DM</span>Rocks</div></a> 
+    <input class="top-search" placeholder="Search...">
+    <div class="top-right"><span class="top-right-text">Randall<br> Cohen</span><img src="icons/chevron-down.svg"></div>
+    <img class="top-right-favicon" src="images/img 7.jpg">
+  </div>
+  <div id="content-wrapper" class="d-flex flex-column">
+    <div id="content">
+      <div class="top-two">
+        <div class="rectangle"><div class="rectangle-2-copy-5"><img src="icons/rocket.svg"></div><span class="top-two-team-members">Team Members</span><br><span class="top-two-team-members-second">UI / UX Engineers</span></div> 
+        <div class="rectangle-right"><button class="blue-button all-button">All</button><span class="rectangle-right-text">My Team</span></div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card shadow h-100 py-2">
+              <div class="card-body">
+                <h1 class="add-new-member-card">Add New Member</h1>
+                <div class="image-upload"><label for="file-input"><div class="add-card-image"><img src="icons/user.svg"></div></label><input id="file-input" type="file" /></div>
+                <input class="add-input-name" type="text" value="Full Name">
+                <input class="add-input-email" type="text" value="Email">
+                <button class="blue-button add-button">Add</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card shadow h-100 py-2">
+              <div class="card-body">
+                <div class="profile-top">
+                  <div class="profile-heart"><img src="icons/heart.svg" id="like" onclick="like();"></div>
+                </div>
+                <div class="profile-card-image"><img src="images/img 6.jpg"></div>
+                <div class="profile-name">Marie Walters</div>
+                <div class="profile-email">mariewalters@gmail.com</div>
+                <div class="todo"><img src="icons/to-do.svg"><span>Assign</span></div><div class="popup" onclick="myFunction()"><button class="view-button" id="popupBtn"><img src="icons/preview.svg"><span>View</span></button>
+                  <div id="myPopup" class="modal">
+                    <div class="modal-content">
+                      <div class="popup-heart"><img src="icons/heart.svg"><span class="close">&times;</span></div>
+                      <div class="profile-card-image"><img src="images/img 6.jpg"></div>
+                      <div class="profile-name">Marie Walters</div>
+                      <div class="profile-email">mariewalters@gmail.com</div>
+                      <p class="popup-title">About</p>
+                      <p class="popup-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                      <p class="popup-title2">Hobbies</p>
+                      <p class="popup-text">Lorem ipsum dolor consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore </p>
+                      <button class="blue-button close-button">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card shadow h-100 py-2">
+              <div class="card-body">
+                <div class="profile-top">
+                  <div class="profile-heart"><img src="icons/heart.svg" id="like2" onclick="like2();"></div>
+                </div>
+                <div class="profile-card-image"><img src="images/img 5.jpg"></div>
+                <div class="profile-name">Eugenia Hoffman</div>
+                <div class="profile-email">eugenia@gmail.com</div>
+                <div class="todo"><img src="icons/to-do.svg"><span>Assign</span></div><div class="popup" onclick="myFunction2()"><button class="view-button" id="popupBtn"><img src="icons/preview.svg"><span>View</span></button>
+                  <div id="myPopup2" class="modal">
+                    <div class="modal-content">
+                      <div class="popup-heart"><img src="icons/heart.svg"><span class="close">&times;</span></div>
+                      <div class="profile-card-image"><img src="images/img 5.jpg"></div>
+                      <div class="profile-name">Eugenia Hoffman</div>
+                      <div class="profile-email">eugenia@gmail.com</div>
+                      <p class="popup-title">About</p>
+                      <p class="popup-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                      <p class="popup-title2">Hobbies</p>
+                      <p class="popup-text">Lorem ipsum dolor consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore </p>
+                      <button class="blue-button close-button">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card shadow h-100 py-2">
+              <div class="card-body">
+                <div class="profile-top">
+                  <div class="profile-heart"><img src="icons/heart.svg" id="like3" onclick="like3();"></div>
+                </div>
+                <div class="profile-card-image"><img src="images/img 4.jpg"></div>
+                <div class="profile-name">Fannie Douglas</div>
+                <div class="profile-email">fannie@gmail.com</div>
+                <div class="todo"><img src="icons/to-do.svg"><span>Assign</span></div><div class="popup" onclick="myFunction3()"><button class="view-button" id="popupBtn"><img src="icons/preview.svg"><span>View</span></button>
+                  <div id="myPopup3" class="modal">
+                    <div class="modal-content">
+                      <div class="popup-heart"><img src="icons/heart.svg"><span class="close">&times;</span></div>
+                      <div class="profile-card-image"><img src="images/img 4.jpg"></div>
+                      <div class="profile-name">Fannie Douglas</div>
+                      <div class="profile-email">fannie@gmail.com</div>
+                      <p class="popup-title">About</p>
+                      <p class="popup-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                      <p class="popup-title2">Hobbies</p>
+                      <p class="popup-text">Lorem ipsum dolor consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore </p>
+                      <button class="blue-button close-button">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card shadow h-100 py-2">
+              <div class="card-body">
+                <div class="profile-top">
+                  <div class="profile-heart"><img src="icons/heart.svg" id="like4" onclick="like4();"></div>
+                </div>
+                <div class="profile-card-image"><img src="images/img 7.jpg"></div>
+                <div class="profile-name">Lilly Schmidt</div>
+                <div class="profile-email">lillyschmidt@gmail.com</div>
+                <div class="todo"><img src="icons/to-do.svg"><span>Assign</span></div><div class="popup" onclick="myFunction4()"><button class="view-button" id="popupBtn"><img src="icons/preview.svg"><span>View</span></button>
+                  <div id="myPopup4" class="modal">
+                    <div class="modal-content">
+                      <div class="popup-heart"><img src="icons/heart.svg"><span class="close">&times;</span></div>
+                      <div class="profile-card-image"><img src="images/img 7.jpg"></div>
+                      <div class="profile-name">Lilly Schmidt</div>
+                      <div class="profile-email">lillyschmidt@gmail.com</div>
+                      <p class="popup-title">About</p>
+                      <p class="popup-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                      <p class="popup-title2">Hobbies</p>
+                      <p class="popup-text">Lorem ipsum dolor consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore </p>
+                      <button class="blue-button close-button">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card shadow h-100 py-2">
+              <div class="card-body">
+                <div class="profile-top">
+                  <div class="profile-heart"><img src="icons/heart.svg" id="like5" onclick="like5();"></div>
+                </div>
+                <div class="profile-card-image"><img src="images/img 3.jpg"></div>
+                <div class="profile-name">Vernon Richards</div>
+                <div class="profile-email">vernon@gmail.com</div>
+                <div class="todo"><img src="icons/to-do.svg"><span>Assign</span></div><div class="popup" onclick="myFunction5()"><button class="view-button" id="popupBtn"><img src="icons/preview.svg"><span>View</span></button>
+                  <div id="myPopup5" class="modal">
+                    <div class="modal-content">
+                      <div class="popup-heart"><img src="icons/heart.svg"><span class="close">&times;</span></div>
+                      <div class="profile-card-image"><img src="images/img 3.jpg"></div>
+                      <div class="profile-name">Vernon Richards</div>
+                      <div class="profile-email">vernon@gmail.com</div>
+                      <p class="popup-title">About</p>
+                      <p class="popup-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                      <p class="popup-title2">Hobbies</p>
+                      <p class="popup-text">Lorem ipsum dolor consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore </p>
+                      <button class="blue-button close-button">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card shadow h-100 py-2">
+              <div class="card-body">
+                <div class="profile-top">
+                  <div class="profile-heart"><img src="icons/heart.svg" id="like6" onclick="like6();"></div>
+                </div>
+                <div class="profile-card-image"><img src="images/img 2.jpg"></div>
+                <div class="profile-name">Mollie Henry</div>
+                <div class="profile-email">molliehenry@gmail.com</div>
+                <div class="todo"><img src="icons/to-do.svg"><span>Assign</span></div><div class="popup" onclick="myFunction6()"><button class="view-button" id="popupBtn"><img src="icons/preview.svg"><span>View</span></button>
+                  <div id="myPopup6" class="modal">
+                    <div class="modal-content">
+                      <div class="popup-heart"><img src="icons/heart.svg"><span class="close">&times;</span></div>
+                      <div class="profile-card-image"><img src="images/img 2.jpg"></div>
+                      <div class="profile-name">Mollie Henry</div>
+                      <div class="profile-email">molliehenry@gmail.com</div>
+                      <p class="popup-title">About</p>
+                      <p class="popup-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                      <p class="popup-title2">Hobbies</p>
+                      <p class="popup-text">Lorem ipsum dolor consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore </p>
+                      <button class="blue-button close-button">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card shadow h-100 py-2">
+              <div class="card-body">
+                <div class="profile-top">
+                  <div class="profile-heart"><img src="icons/heart.svg" id="like7" onclick="like7();"></div>
+                </div>
+                <div class="profile-card-image"><img src="images/img 1.jpg"></div>
+                <div class="profile-name">Rena Warner</div>
+                <div class="profile-email">rena.warner@gmail.com</div>
+                <div class="todo"><img src="icons/to-do.svg"><span>Assign</span></div><div class="popup" onclick="myFunction7()"><button class="view-button" id="popupBtn"><img src="icons/preview.svg"><span>View</span></button>
+                  <div id="myPopup7" class="modal">
+                    <div class="modal-content">
+                      <div class="popup-heart"><img src="icons/heart.svg"><span class="close">&times;</span></div>
+                      <div class="profile-card-image"><img src="images/img 1.jpg"></div>
+                      <div class="profile-name">Rena Warner</div>
+                      <div class="profile-email">rena.warner@gmail.com</div>
+                      <p class="popup-title">About</p>
+                      <p class="popup-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                      <p class="popup-title2">Hobbies</p>
+                      <p class="popup-text">Lorem ipsum dolor consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore </p>
+                      <button class="blue-button close-button">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
+
